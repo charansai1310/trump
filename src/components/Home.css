@@ -1,0 +1,23 @@
+.home-partition {
+    display: grid;
+    grid-template-columns: 3fr 2fr; /* 2 equal columns */
+    grid-template-rows: auto auto; /* 2 equal rows */
+    gap: 20px;
+    grid-template-areas: 
+      "timeline timer"
+      "timeline timer"; /* TimeLineComponent spans both rows in the first column */
+  }
+  
+  .trump h3 {
+    grid-column: span 2; /* Make the title span both columns */
+    text-align: center;
+  }
+  
+  .time-line {
+    grid-area: timeline; /* TimeLineComponent will occupy the left column and span both rows */
+  }
+  
+  .timer {
+    grid-area: timer; /* Timer will be in the top-right grid */
+  }
+  

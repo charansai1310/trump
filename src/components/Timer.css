@@ -1,0 +1,67 @@
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    margin-top: -495px;
+  }
+  
+  .time-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .flip-unit {
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+  }
+  
+  .flip-unit .label {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  .flip-cards {
+    display: flex;
+  }
+  
+  .flip-card {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  
+  .flip-card-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-style img{
+    margin-top:20px;
+    width: 200px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  .progress-bar{
+    position: relative;
+    bottom: -10px;
+    left: 105px;
+    width: 200px;
+    height: 20px;
+    background-color: #ddd;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
